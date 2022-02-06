@@ -1,0 +1,26 @@
+.hero{
+    display: flex;
+}
+.hero__content, .hero__img{
+    flex: 0 0 50%;
+}
+.hero__content{
+    margin-top: 0rem;
+}
+.hero__title{
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+.hero__description{
+    font-size: 1.48rem;
+    font-weight: 500;
+    color: var(--color-gray);
+    margin: 2.5rem 0rem;
+    line-height: 2.2rem;
+}
+.hero__img{
+    margin-top: 3.2rem;
+    margin-left: 2.5rem;
+    transform: scale(1.45);
+}

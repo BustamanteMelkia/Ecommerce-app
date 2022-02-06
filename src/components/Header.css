@@ -1,0 +1,36 @@
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.6rem;
+}
+.header__brand{
+  margin-left: 1rem;
+}
+.header__navbar {
+  margin-left: -5.5rem;
+}
+.navbar {
+  display: flex;
+}
+.navbar__item {
+  margin-right: 1.5rem;
+}
+.navbar__item:last-of-type {
+  margin-right: 0rem;
+}
+.navbar__link {
+  display: inline-block;
+  font-size: .97rem;
+  padding: 0.65rem 1rem;
+  font-weight: 600;
+  color: var(--color-dark);
+  transition: all .4s ease-in-out;
+}
+.navbar__link:hover{
+  color: var(--color-primary);
+}
+.navbar__link--active {
+  color: var(--color-primary);
+}
