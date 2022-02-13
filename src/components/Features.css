@@ -1,0 +1,101 @@
+.features{
+    margin-top: 12rem;
+}
+.features__title{
+    text-align: center;
+    font-size: 2.75rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+    opacity: 80%;
+}
+/*Feature*/
+.feature{
+    display: flex;
+    align-items: center;
+    border-radius: 3rem;
+    margin: 3rem 0rem 10rem 0rem;
+}
+.feature:nth-of-type(2){
+    position: relative;
+    background: rgb(237,238,246);
+    background: linear-gradient(90deg, rgba(237,238,246,1) 25%, rgba(255,255,255,1) 100%);
+}
+.feature:nth-of-type(4){
+    background-color: var(--color-pink);
+    padding: 2rem 0rem;
+}
+
+.feature:nth-of-type(2) .feature__content,
+.feature:nth-of-type(3) .feature__content{
+    padding-left: 3rem;
+}
+.feature:nth-of-type(4) .feature__content{
+    padding-left: 6rem;
+}
+
+.feature__img {
+    flex: 0 0 40%;
+}
+.feature:nth-of-type(4) .feature__img{
+    transform: scale(1.6) translate(-10px, -60px);
+}
+
+.feature__title{
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+.feature__subtitle{
+    font-size: 1.45rem;
+    color: var(--color-primary);
+    margin-bottom: 1.4rem;
+}
+.feature__description{
+    font-size: 1.45rem;
+    font-weight: 500;
+    color: var(--color-gray);
+    margin: 1.5rem 0rem;
+    line-height: 2.2rem;
+    width: 90%;
+}
+.feature:nth-of-type(4) .feature__description{
+    color: var(--color-primary);
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 3.4rem;
+}
+
+/* Circles inside the 'Experience products in AR' feature*/
+.feature:nth-of-type(2) .circle{
+    z-index: 0;
+    width: 100px;
+    height: 100px;
+    top: initial;
+    right: initial;
+    bottom: initial;
+    left: initial;
+}
+.feature:nth-of-type(2) .circle--xl.circle--pink{
+    width: 100px;
+    height: 100px;
+    left: 18rem;
+    bottom: -50px;
+}
+.feature:nth-of-type(2) .circle--lg.circle--purple{
+    width: 85px;
+    height: 85px;
+    top: -7rem;
+    right: 7rem;
+}
+.feature:nth-of-type(2) .circle--md.circle--pink{
+    width: 62px;
+    height: 62px;
+    top: 4.5rem;
+    left:  29rem;
+}
+.feature:nth-of-type(2) .circle--sm.circle--purple{
+    width: 30px;
+    height: 30px;
+    top: 6rem;
+    right: 2.5rem;
+}
