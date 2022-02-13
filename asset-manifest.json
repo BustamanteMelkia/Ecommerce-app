@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Ecommerce-app/static/css/main.0ef8975e.css",
+    "main.js": "/Ecommerce-app/static/js/main.f07d1925.js",
+    "static/js/787.0c1a86ef.chunk.js": "/Ecommerce-app/static/js/787.0c1a86ef.chunk.js",
+    "static/media/mobile_clipped.png": "/Ecommerce-app/static/media/mobile_clipped.782110b37e531ca52ffc.png",
+    "static/media/Saly-1.png": "/Ecommerce-app/static/media/Saly-1.90bdd74f3188658ee191.png",
+    "static/media/socialmedia.png": "/Ecommerce-app/static/media/socialmedia.1fa18353fd25f79324fd.png",
+    "static/media/mobile2.png": "/Ecommerce-app/static/media/mobile2.2869844f50383c648efa.png",
+    "static/media/mobile.png": "/Ecommerce-app/static/media/mobile.ef7db3f1d48aba6b2c19.png",
+    "static/media/hero.png": "/Ecommerce-app/static/media/hero.db3091e5299ef280e471.png",
+    "index.html": "/Ecommerce-app/index.html",
+    "main.0ef8975e.css.map": "/Ecommerce-app/static/css/main.0ef8975e.css.map",
+    "main.f07d1925.js.map": "/Ecommerce-app/static/js/main.f07d1925.js.map",
+    "787.0c1a86ef.chunk.js.map": "/Ecommerce-app/static/js/787.0c1a86ef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ef8975e.css",
+    "static/js/main.f07d1925.js"
+  ]
+}
